@@ -32,6 +32,7 @@ public class PetCentarHomepage extends BaseHelper {
     private void closeCookieButton() {
         wdWait.until(ExpectedConditions.visibilityOf(popUpCookieButton));
         popUpCookieButton.click();
+
     }
 
     private void selectIgracke() {
