@@ -28,17 +28,18 @@ public class PetCentarAddToCartFunctionalityCheckoutCartPage extends BaseHelper 
     @FindBy(xpath = "//td[contains(text(), \"190,00 din\")]")
     WebElement shipping;
 
+
+    @FindBy(className = "basket-small__quantity")
+    WebElement basketCase;
+
     private void addQuantityAndVerify() {
-        int parsedProductPrice = Integer.parseInt(productPrice.getText().replace(",00", "").replace(".",""));
+        int parsedProductPrice = Integer.parseInt(productPrice.getText().replace(",00", "").replace(".", ""));
         int parseQuantity = Integer.parseInt(quantity.getAttribute("value"));
-        int parsePriceTotal = Integer.parseInt(priceTotal.getText().replace(",00 din", "").replace(".",""));
-        int parseShipping = Integer.parseInt(shipping.getText().replace(",00 din", "").replace(".",""));
+        int parsePriceTotal = Integer.parseInt(priceTotal.getText().replace(",00 din", "").replace(".", ""));
+        int parseShipping = Integer.parseInt(shipping.getText().replace(",00 din", "").replace(".", ""));
+        int parseBasketCart = Integer.parseInt(basketCase.getText());
 
-        System.out.println(parsedProductPrice);
-        System.out.println(parseQuantity);
-        System.out.println(parseShipping);
-        System.out.println(parsePriceTotal);
-
+        Assertions.assertEquals(parseBasketCart, parseQuantity);
         Assertions.assertTrue(parsePriceTotal == parsedProductPrice * parseQuantity + parseShipping);
 
     }
