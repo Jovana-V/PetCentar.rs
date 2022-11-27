@@ -22,23 +22,13 @@ public class PetCentarResultPage extends BaseHelper {
     @FindBy(id = "ctl49_Filter1_RptFilters_ctl01_RptFilter_ctl11_LnkFilter")
     WebElement unitedPets;
 
-    @FindBy(className = "product-list")
-    WebElement productList;
-
-    public void filterAndAssert(String searchTerm) {
+    public void filterClick(String searchTerm) {
         unitedPets.click();
-        List<WebElement> productItem = productList.findElements(By.className("product-item"));
-        int brojrezultata = productItem.size();
-        System.out.println("broj rezultata je " + brojrezultata);
-        for (WebElement result : productItem) {
-            String naslov = result.findElement(By.className("product-item__title")).getText();
-            Assertions.assertTrue(naslov.toUpperCase().contains(searchTerm.toUpperCase()));
         }
 
-    }
 
     public void firstAssignment2(String searchTerm) {
-        filterAndAssert(searchTerm);
+        filterClick(searchTerm);
     }
 
 
