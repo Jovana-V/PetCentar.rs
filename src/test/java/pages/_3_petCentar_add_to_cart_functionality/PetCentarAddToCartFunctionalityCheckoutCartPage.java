@@ -1,4 +1,4 @@
-package pages._3_addToCart;
+package pages._3_petCentar_add_to_cart_functionality;
 
 import helpers.BaseHelper;
 import org.junit.jupiter.api.Assertions;
@@ -15,7 +15,6 @@ public class PetCentarAddToCartFunctionalityCheckoutCartPage extends BaseHelper 
         PageFactory.initElements(driver, this);
     }
 
-
     @FindBy(className = "basket__product-price")
     WebElement productPrice;
 
@@ -27,7 +26,6 @@ public class PetCentarAddToCartFunctionalityCheckoutCartPage extends BaseHelper 
 
     @FindBy(xpath = "//td[contains(text(), \"190,00 din\")]")
     WebElement shipping;
-
 
     @FindBy(className = "basket-small__quantity")
     WebElement basketCase;
@@ -41,6 +39,7 @@ public class PetCentarAddToCartFunctionalityCheckoutCartPage extends BaseHelper 
 
         Assertions.assertEquals(parseBasketCart, parseQuantity);
         Assertions.assertTrue(parsePriceTotal == parsedProductPrice * parseQuantity + parseShipping);
+
 
     }
 

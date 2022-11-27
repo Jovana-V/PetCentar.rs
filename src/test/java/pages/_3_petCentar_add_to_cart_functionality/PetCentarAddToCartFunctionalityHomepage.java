@@ -1,4 +1,4 @@
-package pages._3_addToCart;
+package pages._3_petCentar_add_to_cart_functionality;
 
 import helpers.BaseHelper;
 import org.openqa.selenium.WebDriver;
@@ -26,8 +26,8 @@ public class PetCentarAddToCartFunctionalityHomepage extends BaseHelper {
     WebElement kutakZaMacice;
 
 
-    private void navigateToHomepage() {
-        driver.get("https://www.pet-centar.rs");
+    private void navigateToHomepage(String url) {
+        driver.get(url);
     }
 
     private void closeCookieButton() {
@@ -41,8 +41,8 @@ public class PetCentarAddToCartFunctionalityHomepage extends BaseHelper {
         kutakZaMacice.click();
     }
 
-    public void navigateToPetCentar(){
-        navigateToHomepage();
+    public void navigateToPetCentar(String url){
+        navigateToHomepage(url);
         closeCookieButton();
         selectKutakZaMacice();
 

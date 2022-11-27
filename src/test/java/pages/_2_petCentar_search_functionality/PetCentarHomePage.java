@@ -1,4 +1,4 @@
-package pages._2_search;
+package pages._2_petCentar_search_functionality;
 
 import helpers.BaseHelper;
 import org.openqa.selenium.WebDriver;
@@ -25,9 +25,8 @@ public class PetCentarHomePage extends BaseHelper {
     @FindBy(css = ".js-search-submit.search__btn")
     WebElement magnifyingGlass;
 
-    private void navigateToHomepage() {
-
-        driver.get("https://www.pet-centar.rs");
+    private void navigateToHomepage(String url) {
+        driver.get(url);
     }
 
     private void closeCookieButton() {
@@ -35,17 +34,16 @@ public class PetCentarHomePage extends BaseHelper {
         popUpCookieButton.click();
     }
 
-    private void searchFieldInput() {
+    private void searchFieldInput(String color) {
         wdWait.until(ExpectedConditions.visibilityOf(searchField));
-        searchField.sendKeys("pink");
+        searchField.sendKeys(color);
         wdWait.until(ExpectedConditions.visibilityOf(magnifyingGlass));
         magnifyingGlass.click();
-
     }
 
-    public void secondAssignment() {
-        navigateToHomepage();
+    public void secondAssignment(String url,String color) {
+        navigateToHomepage(url);
         closeCookieButton();
-        searchFieldInput();
+        searchFieldInput(color);
     }
 }

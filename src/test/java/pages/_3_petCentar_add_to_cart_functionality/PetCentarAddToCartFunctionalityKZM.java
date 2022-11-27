@@ -1,4 +1,4 @@
-package pages._3_addToCart;
+package pages._3_petCentar_add_to_cart_functionality;
 
 import helpers.BaseHelper;
 import org.openqa.selenium.By;

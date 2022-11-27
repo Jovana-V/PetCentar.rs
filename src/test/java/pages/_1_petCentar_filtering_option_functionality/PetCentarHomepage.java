@@ -1,4 +1,4 @@
-package pages._1_filters;
+package pages._1_petCentar_filtering_option_functionality;
 
 import helpers.BaseHelper;
 import org.openqa.selenium.WebDriver;
@@ -25,8 +25,8 @@ public class PetCentarHomepage extends BaseHelper {
     WebElement igracke;
 
 
-    private void navigateToHomepage() {
-        driver.get("https://www.pet-centar.rs");
+    private void navigateToHomepage(String url) {
+        driver.get(url);
     }
 
     private void closeCookieButton() {
@@ -42,8 +42,8 @@ public class PetCentarHomepage extends BaseHelper {
     }
 
 
-    public void firstAssignment1() {
-        navigateToHomepage();
+    public void firstAssignment1(String url) {
+        navigateToHomepage(url);
         closeCookieButton();
         selectIgracke();
     }

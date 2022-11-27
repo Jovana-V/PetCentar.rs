@@ -1,7 +1,6 @@
-package pages._2_search;
+package pages._2_petCentar_search_functionality;
 
 import helpers.BaseHelper;
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,12 +22,9 @@ public class PetCentarSearchFunctionalityResultsPage extends BaseHelper {
 
         select = new Select(selectDropdown);
         select.selectByValue("PRICE_ASC");
-        String option = select.getFirstSelectedOption().getText();
-        Assertions.assertTrue(option.contains("Cena (manja-veća)"));
-
-
-
     }
+
+
     public void sortPricePublic(){
         sortPrice();
     }

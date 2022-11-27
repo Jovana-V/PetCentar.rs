@@ -1,4 +1,4 @@
-package pages._1_filters;
+package pages._1_petCentar_filtering_option_functionality;
 
 import helpers.BaseHelper;
 import org.junit.jupiter.api.Assertions;

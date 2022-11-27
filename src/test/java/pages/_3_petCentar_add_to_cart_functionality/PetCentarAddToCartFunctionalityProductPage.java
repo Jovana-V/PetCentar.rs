@@ -1,4 +1,4 @@
-package pages._3_addToCart;
+package pages._3_petCentar_add_to_cart_functionality;
 
 import helpers.BaseHelper;
 import org.openqa.selenium.WebDriver;
@@ -21,13 +21,13 @@ public class PetCentarAddToCartFunctionalityProductPage extends BaseHelper {
     @FindBy(id="ctl47_ProductDetails1_RptProductVariants_ctl00_BtnAdd2Basket")
     WebElement cart;
 
-    private void quantityandAddtoCart(){
+    private void quantityandAddtoCart(String amount){
         quantity.clear();
-        quantity.sendKeys("2");
+        quantity.sendKeys(amount);
         cart.click();
     }
 
-    public void productPage(){;
-        quantityandAddtoCart();
+    public void productPage(String amount){;
+        quantityandAddtoCart(amount);
     }
 }

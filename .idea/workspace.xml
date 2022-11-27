@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="042320ca-65f1-4d08-8d49-3444498d3a88" name="Changes" comment="">
+    <list default="true" id="042320ca-65f1-4d08-8d49-3444498d3a88" name="Changes" comment="Removing print lines and adding assert">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_2_PetCentarSearchFunctionalityTEST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_3_addToCart/PetCentarAddToCartFunctionalityCheckoutCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_3_addToCart/PetCentarAddToCartFunctionalityCheckoutCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_1_filters/PetCentarHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_1_petCentar_filtering_option_functionality/PetCentarHomepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_1_filters/PetCentarResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_1_petCentar_filtering_option_functionality/PetCentarResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_2_search/PetCentarHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_2_petCentar_search_functionality/PetCentarHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_2_search/PetCentarSearchFunctionalityResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_2_petCentar_search_functionality/PetCentarSearchFunctionalityResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_3_addToCart/PetCentarAddToCartFunctionalityCheckoutCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_3_petCentar_add_to_cart_functionality/PetCentarAddToCartFunctionalityCheckoutCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_3_addToCart/PetCentarAddToCartFunctionalityHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_3_petCentar_add_to_cart_functionality/PetCentarAddToCartFunctionalityHomepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_3_addToCart/PetCentarAddToCartFunctionalityKZM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_3_petCentar_add_to_cart_functionality/PetCentarAddToCartFunctionalityKZM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/_3_addToCart/PetCentarAddToCartFunctionalityProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/_3_petCentar_add_to_cart_functionality/PetCentarAddToCartFunctionalityProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PetCentarAddToCartFunctionalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_3_PetCentarAddToCartFunctionalityTEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PetCentarFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_1_PetCentarFilteringOptionFunctionalityTEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PetCentarSearchFunctionalityTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +48,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MadWorld/Desktop/JovanaTest&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MadWorld/Desktop/PetCentar.rsKOPIJA&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,8 +57,8 @@
       <recent name="helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetCentarAddToCartFunctionalityTest.addToCartTest">
-    <configuration name="PetCentarAddToCartFunctionalityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit._3_PetCentarAddToCartFunctionalityTEST.addToCartTest">
+    <configuration name="_1_PetCentarFilteringOptionFunctionalityTEST.filteringOptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetCentar.rs" />
       <extension name="coverage">
         <pattern>
@@ -56,61 +67,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PetCentarAddToCartFunctionalityTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetCentarAddToCartFunctionalityTest.AddToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PetCentar.rs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PetCentarAddToCartFunctionalityTest" />
-      <option name="METHOD_NAME" value="AddToCartTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetCentarAddToCartFunctionalityTest.addToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PetCentar.rs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PetCentarAddToCartFunctionalityTest" />
-      <option name="METHOD_NAME" value="addToCartTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetCentarFilterTest.filteringOptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PetCentar.rs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PetCentarFilterTest" />
+      <option name="MAIN_CLASS_NAME" value="tests._1_PetCentarFilteringOptionFunctionalityTEST" />
       <option name="METHOD_NAME" value="filteringOptionsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetCentarSearchFunctionalityTest.SearchFunctionalityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_2_PetCentarSearchFunctionalityTEST.SearchFunctionalityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetCentar.rs" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +83,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PetCentarSearchFunctionalityTest" />
+      <option name="MAIN_CLASS_NAME" value="tests._2_PetCentarSearchFunctionalityTEST" />
       <option name="METHOD_NAME" value="SearchFunctionalityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_PetCentarAddToCartFunctionalityTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PetCentar.rs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests._3_PetCentarAddToCartFunctionalityTEST" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_PetCentarAddToCartFunctionalityTEST.AddToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PetCentar.rs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests._3_PetCentarAddToCartFunctionalityTEST" />
+      <option name="METHOD_NAME" value="AddToCartTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_PetCentarAddToCartFunctionalityTEST.addToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PetCentar.rs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests._3_PetCentarAddToCartFunctionalityTEST" />
+      <option name="METHOD_NAME" value="addToCartTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PetCentarAddToCartFunctionalityTest.addToCartTest" />
-        <item itemvalue="JUnit.PetCentarFilterTest.filteringOptionsTest" />
-        <item itemvalue="JUnit.PetCentarAddToCartFunctionalityTest" />
-        <item itemvalue="JUnit.PetCentarAddToCartFunctionalityTest.AddToCartTest" />
-        <item itemvalue="JUnit.PetCentarSearchFunctionalityTest.SearchFunctionalityTest" />
+        <item itemvalue="JUnit._3_PetCentarAddToCartFunctionalityTEST.addToCartTest" />
+        <item itemvalue="JUnit._2_PetCentarSearchFunctionalityTEST.SearchFunctionalityTest" />
+        <item itemvalue="JUnit._1_PetCentarFilteringOptionFunctionalityTEST.filteringOptionsTest" />
+        <item itemvalue="JUnit._3_PetCentarAddToCartFunctionalityTEST" />
+        <item itemvalue="JUnit._3_PetCentarAddToCartFunctionalityTEST.AddToCartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +156,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668612687451</updated>
     </task>
+    <task id="LOCAL-00001" summary="Removing print lines and adding assert">
+      <created>1669243469248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669243469248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,5 +176,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removing print lines and adding assert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing print lines and adding assert" />
   </component>
 </project>
